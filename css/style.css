@@ -1,4 +1,11 @@
-* {
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
   box-sizing: border-box;
 }
 
@@ -58,4 +65,5 @@
     flex-wrap: wrap;
     margin-right: -1.5rem;
     margin-left: -1.5rem;
+    margin: 0;
   }

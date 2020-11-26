@@ -102,22 +102,12 @@
                     <div class="divider-custom">
                         <div class="divider-custom-line"></div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <img src="img/image1.jpg" class="img-fluid rounded width:100% height:auto" alt="resp">
-                            </div>
-
-                            <div class="col">
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio
-                                    velit
-                                    inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus
-                                    consequuntur
-                                    ex. Nemo
-                                    assumenda laborum vel, labore ut velit dignissimos.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio
+                        velit
+                        inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus
+                        consequuntur
+                        ex. Nemo
+                        assumenda laborum vel, labore ut velit dignissimos.</p>
                 </div>
             </div>
         </div>
@@ -136,7 +126,11 @@
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat
                         voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et
                         repudiandae ipsa exercitationem, in, quo totam.</p><br>
-                    <div class="row justify-content-align align-items-center">
+
+                    <!--
+                        <div class="row ">
+                        -->
+                    <!--
                         <div class="col-5 text-center">
                             <ul class="list-unstyled mb-0">
 
@@ -161,58 +155,56 @@
 
                             </ul>
                         </div>
+                        -->
 
-                        <!-- Contact Section Form-->
-                        <div class="col-7">
-                            <div class="col-lg-12 mx-auto">
-                                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                                <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Név</label>
-                                            <input class="form-control" id="name" type="text" placeholder="Név"
-                                                required="required"
-                                                data-validation-required-message="Adja meg a nevét" />
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Email cím</label>
-                                            <input class="form-control" id="email" type="email" placeholder="Email cím"
-                                                required="required"
-                                                data-validation-required-message="Adja meg az e-mail címét." />
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Telefonszám</label>
-                                            <input class="form-control" id="phone" type="tel" placeholder="Telefonszám"
-                                                required="required"
-                                                data-validation-required-message="Adja meg a telefonszámát." />
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Üzenet</label>
-                                            <textarea class="form-control" id="message" rows="5" placeholder="Üzenet"
-                                                required="required"
-                                                data-validation-required-message="Írja meg az üzenetét."></textarea>
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <div id="success"></div>
-                                    <div class="form-group"><button class="btn btn-secondary btn-xl"
-                                            id="sendMessageButton" type="submit">Küldés</button></div>
-                                </form>
+                    <!-- Contact Section Form-->
+                    <div class="col-lg-12 mx-auto">
+                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Név</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Név"
+                                        required="required" data-validation-required-message="Adja meg a nevét" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
-                        </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email cím</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Email cím"
+                                        required="required"
+                                        data-validation-required-message="Adja meg az e-mail címét." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Telefonszám</label>
+                                    <input class="form-control" id="phone" type="tel" placeholder="Telefonszám"
+                                        required="required"
+                                        data-validation-required-message="Adja meg a telefonszámát." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Üzenet</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Üzenet"
+                                        required="required"
+                                        data-validation-required-message="Írja meg az üzenetét."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn btn-secondary btn-xl" id="sendMessageButton"
+                                    type="submit">Küldés</button></div>
+                        </form>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- START Bootstrap-Cookie-Alert -->
