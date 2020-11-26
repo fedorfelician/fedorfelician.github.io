@@ -39,7 +39,7 @@ $(function () {
                         )
                         .append("</button>");
                     $("#success > .alert-success").append(
-                        "<strong>Your message has been sent. </strong>"
+                        "<strong>Az üzenet elküldve. </strong>"
                     );
                     $("#success > .alert-success").append("</div>");
                     //clear all fields
@@ -55,9 +55,7 @@ $(function () {
                         .append("</button>");
                     $("#success > .alert-danger").append(
                         $("<strong>").text(
-                            "Sorry " +
-                                firstName +
-                                ", it seems that my mail server is not responding. Please try again later!"
+                            "A levelező szerver nem válaszol, kérjük próbálja újra később!"
                         )
                     );
                     $("#success > .alert-danger").append("</div>");
