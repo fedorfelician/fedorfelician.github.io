@@ -277,6 +277,21 @@
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
+
+                                    <!-- RECAPTCHA elem, sitekey-t cserélni kell -->
+                                    <div class="control-group">
+                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                            <label>reCaptcha</label>
+                                            <div class="g-recaptcha"
+                                                data-sitekey="6LdDP-8ZAAAAAO0j3dIAWKBwz2-qjCDjQZ5D0hMG"
+                                                data-callback="verifyRecaptchaCallback"
+                                                data-expired-callback="expiredRecaptchaCallback"></div>
+                                            <input class="form-control d-none" data-recaptcha="true" required
+                                                data-error="Kérem végezze el az ellenőrzést.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
                                     <br />
                                     <div id="success"></div>
                                     <div class="form-group text-center">
@@ -319,6 +334,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!-- reCaptcha init + contact.js másik helyről-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="contact.js"></script>
 
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
