@@ -7,6 +7,7 @@
 
 body {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 #mainNav {
@@ -73,6 +74,7 @@ body {
 
 .form-control {
   display: block;
+  font-family: 'Lato', sans-serif;
 }
 
 h5 > .btn {
@@ -98,4 +100,24 @@ h5 > .btn {
 .help-block.with-errors {
   color: #ff5050;
   margin-top: 5px;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  background: rgba(95, 4, 4, 0.39);
+}
+
+.btn-send:hover {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  background: rgba(95, 4, 4, 0.685);
 }

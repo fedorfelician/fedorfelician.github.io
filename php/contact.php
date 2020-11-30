@@ -1,26 +1,26 @@
 <?php
 // require ReCaptcha class
-require('recaptcha-master/src/autoload.php');
+require('php/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
 $from = 'Demo contact form <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'Demo contact form <fedor.felician@gmail.com>';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'Új üzenet a kapcsolat menüponton keresztül';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
+$fields = array('name' => 'Név', 'phone' => 'Telefonszám', 'email' => 'Email', 'message' => 'Üzenet');
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Az üzenet sikeresen elküldve.';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = 'Hiba történt az üzenet küldése közben. Kérem, próbálja újra később.';
 
 // ReCaptch Secret
 $recaptchaSecret = '6LdDP-8ZAAAAADPlrzRLci_peOifNlm6sHGhF5id';
@@ -54,7 +54,7 @@ try {
         
         // everything went well, we can compose the message, as usually
         
-        $emailText = "You have a new message from your contact form\n=============================\n";
+        $emailText = "Új üzenet érkezett a kapcsolat menüponton keresztül\n=============================\n";
 
         foreach ($_POST as $key => $value) {
             // If the field exists in the $fields array, include it in the email
@@ -65,8 +65,8 @@ try {
     
         // All the neccessary headers for the email.
         $headers = array('Content-Type: text/plain; charset="UTF-8";',
-            'From: ' . $from,
-            'Reply-To: ' . $from,
+            'Feladó: ' . $from,
+            'Válasz: ' . $from,
             'Return-Path: ' . $from,
         );
         

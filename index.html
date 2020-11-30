@@ -238,65 +238,7 @@
 
                             <!-- Contact Section Form-->
                             <div class="col-md-7">
-                                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                                <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Név</label>
-                                            <input class="form-control" id="name" type="text" placeholder="Név"
-                                                required="required"
-                                                data-validation-required-message="Adja meg a nevét." />
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Email cím</label>
-                                            <input class="form-control" id="email" type="email" placeholder="Email cím"
-                                                required="required"
-                                                data-validation-required-message="Adja meg az e-mail címét." />
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Telefonszám</label>
-                                            <input class="form-control" id="phone" type="tel" placeholder="Telefonszám"
-                                                required="required"
-                                                data-validation-required-message="Adja meg a telefonszámát." />
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>Üzenet</label>
-                                            <textarea class="form-control" id="message" rows="5" placeholder="Üzenet"
-                                                required="required"
-                                                data-validation-required-message="Írja meg az üzenetét."></textarea>
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-
-                                    <!-- RECAPTCHA elem, sitekey-t cserélni kell -->
-                                    <div class="control-group">
-                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                            <label>reCaptcha</label>
-                                            <div class="g-recaptcha"
-                                                data-sitekey="6LdDP-8ZAAAAAO0j3dIAWKBwz2-qjCDjQZ5D0hMG"
-                                                data-callback="verifyRecaptchaCallback"
-                                                data-expired-callback="expiredRecaptchaCallback"></div>
-                                            <input class="form-control d-none" data-recaptcha="true" required
-                                                data-error="Kérem végezze el az ellenőrzést.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <br />
-                                    <div id="success"></div>
-                                    <div class="form-group text-center">
-                                        <button class="btn btn-secondary btn-xl" id="sendMessageButton"
-                                            type="submit">Küldés</button></div>
-                                </form>
+                                
 
                                 <form id="contact-form" method="post" action="contact.php" role="form">
                                     <div class="messages"></div>
@@ -345,6 +287,7 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
 
+                                        <div id="success"></div>
                                         <div class="form-group text-center">
                                             <input type="submit" class="btn btn-secondary btn-send" value="Küldés">
                                         </div>
