@@ -94,3 +94,8 @@ h5 > .btn {
   border: 0;
   background-color: white;
 }
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
