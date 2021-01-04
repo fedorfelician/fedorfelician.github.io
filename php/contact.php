@@ -4,10 +4,10 @@ require('php/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
-$from = 'Céges email <demo@domain.com>';
+$from = 'Demo contact form <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Fedor Felicián <fedor.felician@gmail.com>';
+$sendTo = 'Demo contact form <fedor.felician@gmail.com>';
 
 // subject of the email
 $subject = 'Új üzenet a kapcsolat menüponton keresztül';
@@ -23,7 +23,7 @@ $okMessage = 'Az üzenet sikeresen elküldve.';
 $errorMessage = 'Hiba történt az üzenet küldése közben. Kérem, próbálja újra később.';
 
 // ReCaptch Secret
-$recaptchaSecret = '6LeNZPcZAAAAAJ34Q_GubW0CrNHbTCQGbvNw8lve';
+$recaptchaSecret = '6LdDP-8ZAAAAADPlrzRLci_peOifNlm6sHGhF5id';
 
 // let's do the sending
 
