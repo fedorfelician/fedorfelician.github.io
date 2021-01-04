@@ -3,7 +3,7 @@
 //  CONFIGURE EVERYTHING HERE
 
 // require ReCaptcha class
-require('php/autoload.php');
+require('recaptcha-master/src/autoload.php');
 
 // "innen érkezik" az email
 $from = 'Céges email <demo@domain.com>';
