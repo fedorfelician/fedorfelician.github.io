@@ -15,7 +15,7 @@ $sendTo = 'Fedor Felicián <fedor.felician@gmail.com>';
 $subject = 'Új üzenet érkezett a weboldalról';
 
 // form mezőnevek és fordításaik // array variable name => Text to appear in the email
-$fields = array('name' => 'Név', 'email' => 'Email', 'tel' => 'Telefonszám', 'message' => 'Üzenet'); 
+$fields = array('name' => 'Név', 'email' => 'Email', 'phone' => 'Telefonszám', 'message' => 'Üzenet'); 
 
 // oké üzenet
 $okMessage = 'Üzenet elküldve. Köszönjük!';
