@@ -1,13 +1,13 @@
 <?php
 // require ReCaptcha class
-require('php/autoload.php');
+require('recaptcha-master/src/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Céges email <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <fedor.felician@gmail.com>';
+$sendTo = 'Fedor Felicián <fedor.felician@gmail.com>';
 
 // subject of the email
 $subject = 'Új üzenet a kapcsolat menüponton keresztül';
