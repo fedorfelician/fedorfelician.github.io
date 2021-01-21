@@ -15,7 +15,7 @@ $okMessage = 'Üzenet elküldve. Köszönjük!';
 // hibaüzenet
 $errorMessage = 'Hiba az üzenet küldésében, kérjük próbálja újra később.';
 // ReCaptch Secret
-$recaptchaSecret = '6LeNZPcZAAAAAJ34Q_GubW0CrNHbTCQGbvNw8lve';
+$recaptchaSecret = '6LdDP-8ZAAAAADPlrzRLci_peOifNlm6sHGhF5id';
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
 //error_reporting(E_ALL & ~E_NOTICE);

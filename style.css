@@ -47,9 +47,7 @@ h2{
 label {
   color: #333;
 }
-.g-recaptcha {
-  margin-left: 15px;
-}
+
 .btn-send {
   font-weight: 300;
   text-transform: uppercase;
@@ -59,6 +57,9 @@ label {
 .help-block.with-errors {
   color: #ff5050;
   margin-top: 5px;
+}
+.help-block.with-errors.jelolo {
+  margin-left: -20px;
 }
 
 .cookiealert {

@@ -163,7 +163,6 @@
           </div>
           <p class="lead">Szeretné igénybe venni cégünk szolgáltatásait? Vegye fel velünk a kapcsolatot az alábbi űrlap
             kitöltésével, mi pedig hamarosan felvesszük Önnel a kapcsolatot.<br>
-            Kérjük olvassa el az <a href="" data-toggle="modal" data-target="#ADATKEZELESI">Adatkezelési tájékoztató</a>t.
           </p>
 
           <form id="contact-form" method="post" action="contact.php" role="form">
@@ -213,23 +212,48 @@
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
+              </div>
 
-                <div class="form-group">
-                  <div class="g-recaptcha" data-sitekey="6LeNZPcZAAAAALDpbyCW2db8BpssnXd0hhXU_fmg"
-                    data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                  <input class="form-control d-none" data-recaptcha="true" required
-                    data-error="Kérem töltse ki az ellenőrzést.">
-                  <div class="help-block with-errors"></div>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="submit" class="btn btn-primary btn-send" value="Küldés">
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Elfogadom az <a href="" data-toggle="modal" data-target="#ADATKEZELESI">Adatkezelési
+                      tájékoztató</a> tartalmát.
+                  </label>
+                  <div class="invalid-feedback">
+                    Kérjük, jelölje be a jelölőnégyzetet.
+                  </div>
+                  <div class="help-block with-errors jelolo"></div>
                 </div>
               </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="g-recaptcha" data-sitekey="6LdDP-8ZAAAAAO0j3dIAWKBwz2-qjCDjQZ5D0hMG"
+                      data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                    <input class="form-control d-none" data-recaptcha="true" required
+                      data-error="Kérem töltse ki az ellenőrzést.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="submit" class="btn btn-primary btn-send" value="Küldés">
+                  </div>
+                </div>
+              </div>
+
             </div>
-          </form>
         </div>
+        </form>
       </div>
+    </div>
     </div>
   </section>
 
@@ -289,7 +313,11 @@
 
           <h5>Kapcsolat űrlap</h5>
           <p>
-            Cégünk kapcsolatfelvételi lehetőséget biztosít a honlapon található kapcsolatfelvételi űrlappal. Az űrlapon megadható mezők közül a név, e-mail cím és az üzenet kötelező. A telefonszám megadása nem kötelező. Amennyiben Ön az űrlap segítségével veszi fel velem a kapcsolatot, beleegyezik, hogy a megadott adatokat megkapjuk a kapcsolatfelvétel céljából. A megadott adatok más módon nem kerülnek felhasználásra vagy tárolásra.
+            Cégünk kapcsolatfelvételi lehetőséget biztosít a honlapon található kapcsolatfelvételi űrlappal. Az űrlapon
+            megadható mezők közül a név, e-mail cím és az üzenet kötelező. A telefonszám megadása nem kötelező.
+            Amennyiben Ön az űrlap segítségével veszi fel velem a kapcsolatot, beleegyezik, hogy a megadott adatokat
+            megkapjuk a kapcsolatfelvétel céljából. A megadott adatok más módon nem kerülnek felhasználásra vagy
+            tárolásra.
           </p>
           Ide jön majd az adatkezelési tájékoztató szövege
           Ide jön majd az adatkezelési tájékoztató szövege
