@@ -5,9 +5,12 @@
   <title>Demo oldal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="robots" content="index, follow"> <!--KERESOBOTOK, index,follow ha jó lesz-->
-  <meta name="description" content="Munkavédelemi, tűzvédelmi szolgáltatások és oktatás Ózd környékén és Borsod megyében.">
-  <meta name="keywords" content="munkavédelem, tűzvédelem, munkavédelmi, tűzvédelmi, oktatás, tanácsadás, munkabiztonság, munkabaleset, Ózd, Miskolc, Eger, Borsod, szolgáltatás">
+  <meta name="robots" content="index, follow">
+  <!--KERESOBOTOK, index,follow ha jó lesz-->
+  <meta name="description"
+    content="Munkavédelemi, tűzvédelmi szolgáltatások és oktatás Ózd környékén és Borsod megyében.">
+  <meta name="keywords"
+    content="munkavédelem, tűzvédelem, munkavédelmi, tűzvédelmi, oktatás, tanácsadás, munkabiztonság, munkabaleset, Ózd, Miskolc, Eger, Borsod, szolgáltatás">
   <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
   <!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -142,7 +145,7 @@
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita
             quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore
             ut velit dignissimos.</p>
-            
+
         </div>
       </div>
     </div>
@@ -159,7 +162,9 @@
             <i class="fas fa-angle-double-right"></i>
           </div>
           <p class="lead">Szeretné igénybe venni cégünk szolgáltatásait? Vegye fel velünk a kapcsolatot az alábbi űrlap
-            kitöltésével, mi pedig hamarosan felvesszük Önnel a kapcsolatot.</p>
+            kitöltésével, mi pedig hamarosan felvesszük Önnel a kapcsolatot.
+            <a href="" data-toggle="modal" data-target="#ADATKEZELESI">Adatkezelési tájékoztató</a>
+          </p>
 
           <form id="contact-form" method="post" action="contact.php" role="form">
             <div class="messages"></div>
@@ -244,6 +249,34 @@
   <a id="back-to-top" href="#" class="btn btn-outline-secondary btn-lg back-to-top" role="button"><i
       class="fas fa-chevron-up"></i></a>
 
+  <!-- Modal -->
+  <div class="modal fade" id="ADATKEZELESI" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Adatkezelési tájékoztató</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Ide jön majd az adatkezelési tájékoztató szövege
+          Ide jön majd az adatkezelési tájékoztató szövege
+          Ide jön majd az adatkezelési tájékoztató szövege
+
+          Ide jön majd az adatkezelési tájékoztató szövege
+          Ide jön majd az adatkezelési tájékoztató szövege
+          Ide jön majd az adatkezelési tájékoztató szövege
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -252,4 +285,5 @@
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="javascript.js"></script>
 </body>
+
 </html>
