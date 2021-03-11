@@ -12,6 +12,10 @@ p {
   text-align: justify;
 }
 
+.NAVBARCOLOR {
+  background-color: #441120;
+}
+
 /* SCROLL-TO-TOP GOMB */
 .back-to-top {
   position: fixed;
