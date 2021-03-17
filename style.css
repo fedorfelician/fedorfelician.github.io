@@ -11,6 +11,9 @@ section {
 p {
   text-align: justify;
 }
+li {
+  font-size: large;
+}
 
 .NAVBARCOLOR {
   background-color: #441120;
