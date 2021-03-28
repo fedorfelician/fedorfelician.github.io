@@ -19,6 +19,14 @@ li {
   background-color: #441120;
 }
 
+.CEGNEV{
+  letter-spacing:  3px;
+}
+
+.CEGNEV:hover{
+  text-shadow: 0px 0px 5px whitesmoke;
+}
+
 /* SCROLL-TO-TOP GOMB */
 .back-to-top {
   position: fixed;
