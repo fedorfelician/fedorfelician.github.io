@@ -63,6 +63,11 @@ label {
   color: #333;
 }
 
+.gomb1 {
+  width: 60px;
+  background-color: steelblue;
+}
+
 .btn-send {
   font-weight: 300;
   text-transform: uppercase;
