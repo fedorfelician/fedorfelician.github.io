@@ -3,9 +3,9 @@
 // require ReCaptcha class
 require('recaptcha-master/src/autoload.php');
 // "innen érkezik" az email
-$from = 'Céges email <demo@domain.com>';
+$from = 'Weboldal űrlap <demo@domain.com>';
 // email cím, amire a form kimenete érkezik
-$sendTo = 'Fedor Felicián <fedor.felician@gmail.com>';
+$sendTo = 'Onix Praesidium <onix.praesidium@gmail.com>';
 // email tárgya
 $subject = 'Új üzenet érkezett a weboldalról';
 // form mezőnevek és fordításaik // array variable name => Text to appear in the email
@@ -15,7 +15,7 @@ $okMessage = 'Üzenet elküldve. Köszönjük!';
 // hibaüzenet
 $errorMessage = 'Hiba az üzenet küldésében, kérjük próbálja újra később.';
 // ReCaptch Secret
-$recaptchaSecret = '6LdDP-8ZAAAAADPlrzRLci_peOifNlm6sHGhF5id';
+$recaptchaSecret = '6LewjpIaAAAAAGtNv9NTGiwZdHy3QE6sS-Hskuob';
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
 //error_reporting(E_ALL & ~E_NOTICE);
