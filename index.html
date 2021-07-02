@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="robots" content="index, follow">
   <!--KERESOBOTOK, none; -> index,follow ha jó lesz-->
-  <meta name="description"
-    content="Munkavédelmi, tűzvédelmi szolgáltatások és oktatás országosan, Borsod megyei központtal.">
+  <meta name="description" content="Munkavédelmi, tűzvédelmi szolgáltatások és oktatás országosan, Ózd és környékén.">
   <meta name="keywords"
     content="munkavédelem, tűzvédelem, munkavédelmi, tűzvédelmi, oktatás, tanácsadás, munkabiztonság, munkabaleset, Ózd, Miskolc, Eger, Borsod, szolgáltatás">
   <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
@@ -20,7 +19,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYZKWMNQ5K"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-FYZKWMNQ5K');
   </script>
@@ -90,7 +89,8 @@
             tekinthetnek meg.”</p>
         </div>
         <div class="col-lg-3 mx-auto">
-          <img class="image-fluid" width="200" src="img/favicon.svg"> <!--image-fluid után rounded-circle, ha már van rendes kép-->
+          <img class="image-fluid" width="200" src="img/favicon.svg" alt="onix praesidium logo">
+          <!--image-fluid után rounded-circle, ha már van rendes kép-->
           <p></p>
           <h2>Sike Anita</h2>
           <p class="text-center">ügyvezető</p>
@@ -222,7 +222,7 @@
           </div>
           <br>
 
-          <form id="contact-form" method="post" action="contact.php" role="form">
+          <form id="contact-form" method="post" action="contact.php">
             <div class="messages"></div>
             <div class="controls">
 
@@ -253,7 +253,7 @@
                 <div class="col-md-12">
                   <div class="form-group">
                     <label for="form_tel">Telefonszám</label>
-                    <input id="form_tel" type="phone" name="phone" class="form-control"
+                    <input id="form_tel" type="tel" name="phone" class="form-control"
                       placeholder="Kérjük adja meg a telefonszámát">
                     <div class="help-block with-errors"></div>
                   </div>
@@ -307,10 +307,9 @@
               </div>
 
             </div>
+          </form>
         </div>
-        </form>
       </div>
-    </div>
     </div>
   </section>
 
